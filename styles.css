@@ -1,0 +1,165 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+body {
+  font-family: Arial, san-serif;
+  line-height: 1.0;
+  padding: 2rem;
+  letter-spacing: .5px;
+  max-width: 100%;
+  margin:  auto;
+  color: #111;
+}
+
+header h1 {
+  font-size: 1.9rem;
+  margin-bottom: 0.2rem;
+}
+
+header p {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+header a {
+color:#000;
+}
+  
+  a:hover {
+    background: #ffff66;
+    color: #000;
+  }
+  
+
+.project a {
+  display: inline;
+  background: #44f341;  
+  margin-top: 0.6rem;
+  margin-bottom: 0;
+  line-height: 1.8;            /* neon green highlight */
+  padding: 0.2em 0.2em;
+  color: #000;
+  text-decoration: none;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.project a:hover {
+  background: #ffffff;
+  text-shadow: 0 0 8px #ffff66;
+}
+.sound a {
+  display: inline;
+  background: #1905cd;  
+  margin-top: 0.6rem;
+  margin-bottom: 0;
+  line-height: 1.8;            /* hard blue highlight */
+  padding: 0.2em 0.2em;
+  color: #ffffff;
+  text-decoration: none;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+.sound a:hover {
+  background: #ffffff;
+  color: black;
+  text-shadow: 0 0 8px #ffff66;
+}
+.writing {
+  max-width: 640px;
+  margin: 4rem auto;        
+}
+
+#writing .project a:nth-of-type(2) {
+  background: none;
+  color: #555;
+  text-decoration: underline;
+}
+
+.chinaregion {
+line-height: 2rem;
+}
+.bodychina {
+  font-size: 1rem;
+  text-indent: 2em;
+  margin-bottom: 1.5em;
+}
+.footnotes {
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+.footnotes ol {
+  padding-left: 1.2rem;
+}
+
+.footnotes li {
+  margin-bottom: 1rem;
+}
+
+.fn-back {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: #999;
+}
+
+.fn-back:hover {
+  color: #000;
+}
+.highlighted {
+  background-color: #ffff99; /* soft yellow */
+  transition: background-color 1.5s ease;
+}
+
+
+.back-link {
+  display: inline-block;
+  margin-top: 3rem;
+  color: black;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+
+.status-light {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 14px;
+  height: 14px;
+  background: #00ff00;
+  border-radius: 50%;
+  box-shadow: 
+    0 0 10px #00ff00,
+    0 0 20px #00ff00;
+  animation: blink 2.2s infinite;
+  z-index: 9999;          /* force on top */
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+section {
+  margin-top: 2.5rem;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #666;
+}
