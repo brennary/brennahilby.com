@@ -100,28 +100,9 @@ line-height: 2rem;
   margin-top: 3rem;
 }
 
-.footnotes ol {
-  padding-left: 1.2rem;
+.factorygirls {
+  line-height: 2rem;
 }
-
-.footnotes li {
-  margin-bottom: 1rem;
-}
-
-.fn-back {
-  margin-left: 0.5rem;
-  text-decoration: none;
-  color: #999;
-}
-
-.fn-back:hover {
-  color: #000;
-}
-.highlighted {
-  background-color: #ffff99; /* soft yellow */
-  transition: background-color 1.5s ease;
-}
-
 
 .back-link {
   display: inline-block;
